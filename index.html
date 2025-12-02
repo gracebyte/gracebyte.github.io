@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grace | Developer Portfolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: "#0F172A",
+                        slateDeep: "#1E293B",
+                        slate: "#334155",
+                        softText: "#CBD5E1",
+                        lightBg: "#F1F5F9"
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.0.3/tsparticles.bundle.min.js"></script>
+
+    <style>
+        body {
+            background: #0F172A;
+            color: #F1F5F9;
+            overflow-x: hidden;
+        }
+
+        #tsparticles {
+            position: fixed !important;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity: 0.25;
+        }
+    </style>
+</head>
+
+<body class="font-sans relative">
+
+<div id="tsparticles"></div>
+
+<div class="fixed top-4 left-4 space-y-3 z-50">
+    <a href="https://discord.com" target="_blank" class="flex items-center space-x-2 hover:opacity-75 transition">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/discord.svg" class="w-6 invert" alt="Discord">
+        <span class="text-softText">@gracebyte</span>
+    </a>
+
+    <a href="https://x.com" target="_blank" class="flex items-center space-x-2 hover:opacity-75 transition">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" class="w-6 invert" alt="X">
+        <span class="text-softText">@gracebytedev</span>
+    </a>
+</div>
+
+
+<section class="min-h-screen flex flex-col justify-center items-center px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-lightBg tracking-tight">
+        Grace H.
+    </h1>
+
+    <p class="text-lg mt-3 text-softText max-w-2xl">
+        Software and Cyber Engineer specializing in Java, JavaScript, and backend development. 
+        Experienced in API-driven systems, cloud technologies, and game modding. 
+        
+        Current work: supporting a military contracting organization to enhance cybersecurity posture 
+        and modernize internal software capabilities.
+    </p>
+
+    <ul class="mt-6 text-left text-softText max-w-md space-y-1 leading-relaxed">
+        <li class="flex items-start"><span class="mt-1 mr-2 h-2 w-2 bg-softText rounded-full"></span>Cloud & Infrastructure: Docker, DigitalOcean, Azure</li>
+        <li class="flex items-start"><span class="mt-1 mr-2 h-2 w-2 bg-softText rounded-full"></span>Backend: Java, Spring, Spring Boot, SQL, API Development</li>
+        <li class="flex items-start"><span class="mt-1 mr-2 h-2 w-2 bg-softText rounded-full"></span>JavaScript Ecosystem: Node.js, React, Discord.js</li>
+        <li class="flex items-start"><span class="mt-1 mr-2 h-2 w-2 bg-softText rounded-full"></span>Game Modding & Plugin Development: Spigot, Bukkit</li>
+    </ul>
+
+    <a href="#experience"
+       class="mt-10 px-6 py-3 bg-slate hover:bg-slateDeep transition text-lightBg font-medium rounded-lg">
+        View Experience
+    </a>
+</section>
+
+
+<section class="py-20 px-6 bg-slateDeep">
+    <h2 class="text-3xl text-center font-semibold text-lightBg mb-10">Tools & Technologies</h2>
+
+    <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 text-center">
+        <div class="flex flex-col items-center opacity-90">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/intellijidea.svg" class="w-10 invert" />
+            <p class="mt-2 text-softText">IntelliJ</p>
+        </div>
+
+        <div class="flex flex-col items-center opacity-90">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/visualstudiocode.svg" class="w-10 invert" />
+            <p class="mt-2 text-softText">VS Code</p>
+        </div>
+
+        <div class="flex flex-col items-center opacity-90">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/git.svg" class="w-10 invert" />
+            <p class="mt-2 text-softText">Git</p>
+        </div>
+
+        <div class="flex flex-col items-center opacity-90">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/digitalocean.svg" class="w-10 invert" />
+            <p class="mt-2 text-softText">DigitalOcean</p>
+        </div>
+
+        <div class="flex flex-col items-center opacity-90">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftazure.svg" class="w-10 invert" />
+            <p class="mt-2 text-softText">Azure</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="experience" class="py-20 px-6 bg-slate">
+    <div class="max-w-5xl mx-auto">
+
+       <section id="experience" class="py-20 px-6 bg-slate">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-semibold text-center mb-4 text-lightBg">Experience</h2>
+
+        <p class="text-center text-softText italic mb-12">
+            Specific projects can be found on my GitHub profile.
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-8">
+
+            <div class="bg-slateDeep p-6 rounded-xl shadow hover:shadow-xl transition">
+                <h3 class="text-xl font-semibold text-lightBg">Backend API Development</h3>
+                <p class="mt-2 text-softText">
+                    Experience designing and implementing structured REST APIs, secure data handling, 
+                    input validation layers, authentication workflows, and event-driven backend logic. 
+                    Skilled in building scalable server-side systems with strong emphasis on reliability 
+                    and clean architectural patterns.
+                </p>
+            </div>
+
+            <div class="bg-slateDeep p-6 rounded-xl shadow hover:shadow-xl transition">
+                <h3 class="text-xl font-semibold text-lightBg">Full-Stack Systems & Tooling</h3>
+                <p class="mt-2 text-softText">
+                    Developed internal tools and web applications using JavaScript, Node.js, React, and SQL-backed data models. 
+                    Experience with authentication, user flows, structured data processing, 
+                    cloud deployment pipelines, and modern CI/CD-driven development environments.
+                </p>
+            </div>
+
+            <div class="bg-slateDeep p-6 rounded-xl shadow hover:shadow-xl transition">
+                <h3 class="text-xl font-semibold text-lightBg">Java Infrastructure & Plugin Architecture</h3>
+                <p class="mt-2 text-softText">
+                    Strong background in JVM ecosystem development including modular plugin systems, 
+                    event buses, configuration APIs, serialization, custom command frameworks, 
+                    and integration with third-party libraries. Experienced in building extensible 
+                    developer-facing tools and maintaining clean, reusable codebases.
+                </p>
+            </div>
+
+            <div class="bg-slateDeep p-6 rounded-xl shadow hover:shadow-xl transition">
+                <h3 class="text-xl font-semibold text-lightBg">Game Modding & API Systems</h3>
+                <p class="mt-2 text-softText">
+                    Experience creating custom gameplay systems, event handlers, world interaction logic, 
+                    configuration workflows, and server-side plugins. Skilled in designing maintainable API layers, 
+                    patch systems, and extensible features for Java-based modding frameworks.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    </div>
+</section>
+
+<footer class="py-6 px-6 bg-slateDeep">
+    <div class="max-w-4xl mx-auto">
+        <a href="https://github.com/HansonGrace" target="_blank" class="flex items-center space-x-3 hover:opacity-80 transition">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" class="w-6 invert" />
+            <span class="text-softText">github.com/HansonGrace</span>
+        </a>
+    </div>
+</footer>
+
+
+<script>
+    tsParticles.load("tsparticles", {
+        fpsLimit: 60,
+        particles: {
+            number: { value: 60 },
+            size: { value: 2 },
+            color: { value: "#CBD5E1" },
+            move: { speed: 0.6 },
+            opacity: { value: 0.3 },
+            links: {
+                enable: true,
+                distance: 120,
+                color: "#CBD5E1",
+                opacity: 0.25,
+                width: 1
+            }
+        },
+        background: { color: "transparent" }
+    });
+</script>
+
+</body>
+</html>
